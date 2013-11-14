@@ -1,0 +1,77 @@
+/* 
+    Document   : chat
+    Created on : Dec 19, 2011, 2:39:54 PM
+    Author     : SPICYDOG
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+
+body { 
+    font-family: Gill, Helvetica, sans-serif;
+    background-color: #F5F5F5;
+}
+
+#chatarea{
+       font-size: 1.1em;
+       overflow:auto;
+       height: 400px;
+       padding-left: 9px;
+}
+
+
+.onlinename{
+    font-size: 1.2em;
+    white-space: nowrap;
+}
+
+
+#name{
+    font-weight: bold;
+}
+
+#soundToggle{
+    cursor:pointer;
+}
+
+div .time{
+    text-align: right;
+    font-size: 0.7em;
+    color: darkgray;
+}
+
+div .odd{
+    background-color:rgba(0,0,0,0.02);
+    padding: 5px;
+}
+
+div .even{
+    background-color:rgba(0,0,0,0.05);
+    padding: 5px;
+}
+
+#typetext{
+    height: 30px;
+    width: 610px;
+    font-size: 1em;
+    padding-left: 7px;
+    font-weight: normal;
+    border-style: solid;
+    border-color: #EEE;
+    
+    -webkit-border-radius: 10px; 
+    -moz-border-radius: 10px; 
+    border-radius: 10px;
+}
+
+.fbpic{
+    height: 20px;
+    width: 20px;
+    margin: 0px 5px 0px 0px !important;
+    
+}
